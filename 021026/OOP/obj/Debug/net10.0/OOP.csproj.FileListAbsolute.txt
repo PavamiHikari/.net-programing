@@ -1,0 +1,16 @@
+E:\Learn\.NET programing\.net-programing\021026\OOP\obj\Debug\net10.0\OOP.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learn\.NET programing\.net-programing\021026\OOP\obj\Debug\net10.0\OOP.AssemblyInfoInputs.cache
+E:\Learn\.NET programing\.net-programing\021026\OOP\obj\Debug\net10.0\OOP.AssemblyInfo.cs
+E:\Learn\.NET programing\.net-programing\021026\OOP\obj\Debug\net10.0\OOP.csproj.CoreCompileInputs.cache
+E:\Learn\.NET programing\.net-programing\021026\OOP\obj\Debug\net10.0\OOP.sourcelink.json
+E:\Learn\.NET programing\.net-programing\021026\OOP\bin\Debug\net10.0\OOP.exe
+E:\Learn\.NET programing\.net-programing\021026\OOP\bin\Debug\net10.0\OOP.deps.json
+E:\Learn\.NET programing\.net-programing\021026\OOP\bin\Debug\net10.0\OOP.runtimeconfig.json
+E:\Learn\.NET programing\.net-programing\021026\OOP\bin\Debug\net10.0\OOP.dll
+E:\Learn\.NET programing\.net-programing\021026\OOP\bin\Debug\net10.0\OOP.pdb
+E:\Learn\.NET programing\.net-programing\021026\OOP\obj\Debug\net10.0\OOP.dll
+E:\Learn\.NET programing\.net-programing\021026\OOP\obj\Debug\net10.0\refint\OOP.dll
+E:\Learn\.NET programing\.net-programing\021026\OOP\obj\Debug\net10.0\OOP.pdb
+E:\Learn\.NET programing\.net-programing\021026\OOP\obj\Debug\net10.0\OOP.genruntimeconfig.cache
+E:\Learn\.NET programing\.net-programing\021026\OOP\obj\Debug\net10.0\ref\OOP.dll
+E:\Learn\.NET programing\.net-programing\021026\OOP\obj\Debug\net10.0\OOP.csproj.Up2Date
