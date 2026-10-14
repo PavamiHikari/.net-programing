@@ -6,5 +6,15 @@ namespace _2
         {
             InitializeComponent();
         }
+
+        private void radKhanCap_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radTrungBinh_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
