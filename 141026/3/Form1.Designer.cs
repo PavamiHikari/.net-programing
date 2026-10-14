@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-<<<<<<< HEAD
             btnXoaTatCa = new Button();
             btnXoaDong = new Button();
             btnCapNhat = new Button();
@@ -42,20 +41,6 @@
             label2 = new Label();
             txtMaVT = new TextBox();
             label1 = new Label();
-=======
-            label1 = new Label();
-            txtMaVT = new TextBox();
-            label2 = new Label();
-            txtTenVT = new TextBox();
-            label3 = new Label();
-            cboDVT = new ComboBox();
-            label4 = new Label();
-            txtDonGia = new TextBox();
-            btnThem = new Button();
-            btnCapNhat = new Button();
-            btnXoaDong = new Button();
-            btnXoaTatCa = new Button();
->>>>>>> 78f903be3fde8f7438ca026acd110f365b23ff75
             groupBox2 = new GroupBox();
             lvVatTu = new ListView();
             columnHeader1 = new ColumnHeader();
@@ -87,7 +72,6 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông tin vật tư";
             // 
-<<<<<<< HEAD
             // btnXoaTatCa
             // 
             btnXoaTatCa.Location = new Point(176, 280);
@@ -96,7 +80,7 @@
             btnXoaTatCa.TabIndex = 11;
             btnXoaTatCa.Text = "Xóa toàn bộ";
             btnXoaTatCa.UseVisualStyleBackColor = true;
-            btnXoaTatCa.Click += btnXoaTatCa_Click;
+            btnXoaTatCa.Click += btnXoaTatCa_Click_1;
             // 
             // btnXoaDong
             // 
@@ -106,7 +90,7 @@
             btnXoaDong.TabIndex = 10;
             btnXoaDong.Text = "Xóa dòng";
             btnXoaDong.UseVisualStyleBackColor = true;
-            btnXoaDong.Click += btnXoaDong_Click;
+            btnXoaDong.Click += btnXoaDong_Click_1;
             // 
             // btnCapNhat
             // 
@@ -116,7 +100,7 @@
             btnCapNhat.TabIndex = 9;
             btnCapNhat.Text = "Cập nhật";
             btnCapNhat.UseVisualStyleBackColor = true;
-            btnCapNhat.Click += btnCapNhat_Click;
+            btnCapNhat.Click += btnCapNhat_Click_1;
             // 
             // btnThem
             // 
@@ -126,7 +110,7 @@
             btnThem.TabIndex = 8;
             btnThem.Text = "Thêm mới";
             btnThem.UseVisualStyleBackColor = true;
-            btnThem.Click += btnThem_Click;
+            btnThem.Click += btnThem_Click_1;
             // 
             // txtDonGia
             // 
@@ -143,48 +127,6 @@
             label4.Size = new Size(102, 20);
             label4.TabIndex = 6;
             label4.Text = "Đơn giá nhập:";
-=======
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(8, 32);
-            label1.Name = "label1";
-            label1.Size = new Size(75, 20);
-            label1.TabIndex = 0;
-            label1.Text = "Mã vật tư:";
-            // 
-            // txtMaVT
-            // 
-            txtMaVT.Location = new Point(96, 32);
-            txtMaVT.Name = "txtMaVT";
-            txtMaVT.Size = new Size(208, 27);
-            txtMaVT.TabIndex = 1;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(8, 72);
-            label2.Name = "label2";
-            label2.Size = new Size(77, 20);
-            label2.TabIndex = 2;
-            label2.Text = "Tên vật tư:";
-            // 
-            // txtTenVT
-            // 
-            txtTenVT.Location = new Point(96, 72);
-            txtTenVT.Name = "txtTenVT";
-            txtTenVT.Size = new Size(208, 27);
-            txtTenVT.TabIndex = 3;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(8, 112);
-            label3.Name = "label3";
-            label3.Size = new Size(84, 20);
-            label3.TabIndex = 4;
-            label3.Text = "Đơn vị tính:";
->>>>>>> 78f903be3fde8f7438ca026acd110f365b23ff75
             // 
             // cboDVT
             // 
@@ -196,7 +138,6 @@
             cboDVT.Size = new Size(208, 28);
             cboDVT.TabIndex = 5;
             // 
-<<<<<<< HEAD
             // label3
             // 
             label3.AutoSize = true;
@@ -228,7 +169,6 @@
             txtMaVT.Name = "txtMaVT";
             txtMaVT.Size = new Size(208, 27);
             txtMaVT.TabIndex = 1;
-            txtMaVT.TextChanged += txtMaVT_TextChanged;
             // 
             // label1
             // 
@@ -238,70 +178,13 @@
             label1.Size = new Size(75, 20);
             label1.TabIndex = 0;
             label1.Text = "Mã vật tư:";
-=======
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(8, 168);
-            label4.Name = "label4";
-            label4.Size = new Size(102, 20);
-            label4.TabIndex = 6;
-            label4.Text = "Đơn giá nhập:";
-            // 
-            // txtDonGia
-            // 
-            txtDonGia.Location = new Point(112, 168);
-            txtDonGia.Name = "txtDonGia";
-            txtDonGia.Size = new Size(192, 27);
-            txtDonGia.TabIndex = 7;
-            // 
-            // btnThem
-            // 
-            btnThem.Location = new Point(48, 232);
-            btnThem.Name = "btnThem";
-            btnThem.Size = new Size(94, 29);
-            btnThem.TabIndex = 8;
-            btnThem.Text = "Thêm mới";
-            btnThem.UseVisualStyleBackColor = true;
-            // 
-            // btnCapNhat
-            // 
-            btnCapNhat.Location = new Point(176, 232);
-            btnCapNhat.Name = "btnCapNhat";
-            btnCapNhat.Size = new Size(104, 29);
-            btnCapNhat.TabIndex = 9;
-            btnCapNhat.Text = "Cập nhật";
-            btnCapNhat.UseVisualStyleBackColor = true;
-            // 
-            // btnXoaDong
-            // 
-            btnXoaDong.Location = new Point(48, 280);
-            btnXoaDong.Name = "btnXoaDong";
-            btnXoaDong.Size = new Size(94, 29);
-            btnXoaDong.TabIndex = 10;
-            btnXoaDong.Text = "Xóa dòng";
-            btnXoaDong.UseVisualStyleBackColor = true;
-            // 
-            // btnXoaTatCa
-            // 
-            btnXoaTatCa.Location = new Point(176, 280);
-            btnXoaTatCa.Name = "btnXoaTatCa";
-            btnXoaTatCa.Size = new Size(102, 29);
-            btnXoaTatCa.TabIndex = 11;
-            btnXoaTatCa.Text = "Xóa toàn bộ";
-            btnXoaTatCa.UseVisualStyleBackColor = true;
->>>>>>> 78f903be3fde8f7438ca026acd110f365b23ff75
             // 
             // groupBox2
             // 
             groupBox2.Controls.Add(lvVatTu);
             groupBox2.Location = new Point(312, 0);
             groupBox2.Name = "groupBox2";
-<<<<<<< HEAD
-            groupBox2.Size = new Size(632, 456);
-=======
             groupBox2.Size = new Size(424, 456);
->>>>>>> 78f903be3fde8f7438ca026acd110f365b23ff75
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             groupBox2.Text = "Danh sách vật tư";
@@ -313,18 +196,11 @@
             lvVatTu.GridLines = true;
             lvVatTu.Location = new Point(8, 32);
             lvVatTu.Name = "lvVatTu";
-<<<<<<< HEAD
-            lvVatTu.Size = new Size(624, 416);
-            lvVatTu.TabIndex = 0;
-            lvVatTu.UseCompatibleStateImageBehavior = false;
-            lvVatTu.View = View.Details;
-            lvVatTu.SelectedIndexChanged += lvVatTu_SelectedIndexChanged;
-=======
             lvVatTu.Size = new Size(416, 416);
             lvVatTu.TabIndex = 0;
             lvVatTu.UseCompatibleStateImageBehavior = false;
             lvVatTu.View = View.Details;
->>>>>>> 78f903be3fde8f7438ca026acd110f365b23ff75
+            lvVatTu.SelectedIndexChanged += lvVatTu_SelectedIndexChanged_1;
             // 
             // columnHeader1
             // 
@@ -351,19 +227,12 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 255, 192);
-<<<<<<< HEAD
-            ClientSize = new Size(945, 450);
-=======
             ClientSize = new Size(733, 450);
->>>>>>> 78f903be3fde8f7438ca026acd110f365b23ff75
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "Form1";
             Text = "Quản lý danh mục Vật tư / Linh kiện";
-<<<<<<< HEAD
-            Load += Form1_Load;
-=======
->>>>>>> 78f903be3fde8f7438ca026acd110f365b23ff75
+            Load += Form1_Load_1;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
