@@ -10,18 +10,6 @@ namespace _2
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            // Nạp danh sách vào ComboBox loại sự cố
-            cboLoaiSuCo.Items.AddRange(new string[] {
-                "Phần cứng",
-                "Phần mềm",
-                "Mạng",
-                "Tài khoản"
-            });
-            cboLoaiSuCo.SelectedIndex = 0;
-        }
-
         private void radKhanCap_CheckedChanged(object sender, EventArgs e)
         {
 
@@ -126,6 +114,22 @@ namespace _2
             duongDanAnh = string.Empty;
 
             txtMaPhieu.Focus();
+        }
+
+        private void cboLoaiSuCo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+            cboLoaiSuCo.Items.AddRange(new string[] {
+                "Phần cứng",
+                "Phần mềm",
+                "Mạng",
+                "Tài khoản"
+            });
+            cboLoaiSuCo.SelectedIndex = 0;
         }
     }
 }

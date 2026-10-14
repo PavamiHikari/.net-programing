@@ -1,0 +1,10 @@
+# Thông tin sinh viên
+- **Họ và tên:** Phạm Văn Minh
+- **Mã số sinh viên:** 24810310262
+- **Lớp:** D19CNPM3
+- **Tên môn học:** Lập trình C# / Windows Forms
+- **Tên bài tập:** Form Tiếp nhận & Phân loại sự cố IT (IT Support Ticket Form)(Service Charge Calculator)
+## KẾT QUẢ THỰC HÀNH
+![Giao diện chính](image.png)
+![Thực thi chức năng](image-1.png)
+![Lỗi](image-2.png)

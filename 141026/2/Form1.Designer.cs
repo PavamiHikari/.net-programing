@@ -305,6 +305,7 @@
             cboLoaiSuCo.Name = "cboLoaiSuCo";
             cboLoaiSuCo.Size = new Size(288, 28);
             cboLoaiSuCo.TabIndex = 1;
+            cboLoaiSuCo.SelectedIndexChanged += cboLoaiSuCo_SelectedIndexChanged;
             // 
             // lblLoaiSuCo
             // 
@@ -325,6 +326,7 @@
             Controls.Add(grpThongTin);
             Name = "Form1";
             Text = "Tiếp nhận & Phân loại sự cố IT";
+            Load += Form1_Load_1;
             grpThongTin.ResumeLayout(false);
             grpThongTin.PerformLayout();
             panel1.ResumeLayout(false);
