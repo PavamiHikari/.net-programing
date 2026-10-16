@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            SuspendLayout();
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Text = "Form1";
+            BackColor = Color.FromArgb(192, 255, 192);
+            ClientSize = new Size(1036, 547);
+            Name = "Form1";
+            Text = "Quản lí kho";
+            ResumeLayout(false);
         }
 
         #endregion
