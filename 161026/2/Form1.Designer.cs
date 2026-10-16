@@ -202,10 +202,11 @@
             // 
             lblStatusTime.BorderSides = ToolStripStatusLabelBorderSides.Left | ToolStripStatusLabelBorderSides.Top | ToolStripStatusLabelBorderSides.Right | ToolStripStatusLabelBorderSides.Bottom;
             lblStatusTime.Name = "lblStatusTime";
-            lblStatusTime.Size = new Size(1038, 24);
+            lblStatusTime.Size = new Size(999, 24);
             lblStatusTime.Spring = true;
             lblStatusTime.Text = "toolStripStatusLabel1";
             lblStatusTime.TextAlign = ContentAlignment.MiddleRight;
+            lblStatusTime.Click += tsbExit_Click;
             // 
             // timerClock
             // 
@@ -314,7 +315,7 @@
             btnBrowseImage.TabIndex = 14;
             btnBrowseImage.Text = "Chọn ảnh";
             btnBrowseImage.UseVisualStyleBackColor = true;
-            btnBrowseImage.Click += btnBrowseImage_Click;
+            btnBrowseImage.Click += tsbExit_Click;
             // 
             // txtImagePath
             // 
