@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Learn\\.NET programing\\.net-programing\\211026\\2\\2.csproj": {}
+    "E:\\Learn\\.NET programing\\.net-programing\\211026\\3\\2.csproj": {}
   },
   "projects": {
-    "E:\\Learn\\.NET programing\\.net-programing\\211026\\2\\2.csproj": {
+    "E:\\Learn\\.NET programing\\.net-programing\\211026\\3\\2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Learn\\.NET programing\\.net-programing\\211026\\2\\2.csproj",
+        "projectUniqueName": "E:\\Learn\\.NET programing\\.net-programing\\211026\\3\\2.csproj",
         "projectName": "2",
-        "projectPath": "E:\\Learn\\.NET programing\\.net-programing\\211026\\2\\2.csproj",
+        "projectPath": "E:\\Learn\\.NET programing\\.net-programing\\211026\\3\\2.csproj",
         "packagesPath": "C:\\Users\\Pavami Sensei\\.nuget\\packages\\",
-        "outputPath": "E:\\Learn\\.NET programing\\.net-programing\\211026\\2\\obj\\",
+        "outputPath": "E:\\Learn\\.NET programing\\.net-programing\\211026\\3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pavami Sensei\\AppData\\Roaming\\NuGet\\NuGet.Config",

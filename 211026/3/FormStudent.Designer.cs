@@ -33,16 +33,7 @@
             menuXoaDong = new ToolStripMenuItem();
             menuLamMoi = new ToolStripMenuItem();
             menuXemChiTiet = new ToolStripMenuItem();
-
-            menuXoaDong.Text = "Xóa dòng";
-            menuLamMoi.Text = "Làm mới dữ liệu";
-            menuXemChiTiet.Text = "Xem chi tiết";
-            contextMenuDGV.Items.AddRange(new ToolStripItem[] { menuXoaDong, menuLamMoi, menuXemChiTiet });
-
-            
-
             dgvStudents = new DataGridView();
-            dgvStudents.ContextMenuStrip = contextMenuDGV;
             label1 = new Label();
             txtStudentId = new TextBox();
             label2 = new Label();
@@ -57,13 +48,43 @@
             btnDelete = new Button();
             btnUpdate = new Button();
             btnExportCsv = new Button();
+            btnLoadDataAsync = new Button();
+            prgLoading = new ProgressBar();
+            lblPercent = new Label();
+            contextMenuDGV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvStudents).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picAvatar).BeginInit();
             SuspendLayout();
             // 
+            // contextMenuDGV
+            // 
+            contextMenuDGV.ImageScalingSize = new Size(20, 20);
+            contextMenuDGV.Items.AddRange(new ToolStripItem[] { menuXoaDong, menuLamMoi, menuXemChiTiet });
+            contextMenuDGV.Name = "contextMenuDGV";
+            contextMenuDGV.Size = new Size(187, 76);
+            // 
+            // menuXoaDong
+            // 
+            menuXoaDong.Name = "menuXoaDong";
+            menuXoaDong.Size = new Size(186, 24);
+            menuXoaDong.Text = "Xóa dòng";
+            // 
+            // menuLamMoi
+            // 
+            menuLamMoi.Name = "menuLamMoi";
+            menuLamMoi.Size = new Size(186, 24);
+            menuLamMoi.Text = "Làm mới dữ liệu";
+            // 
+            // menuXemChiTiet
+            // 
+            menuXemChiTiet.Name = "menuXemChiTiet";
+            menuXemChiTiet.Size = new Size(186, 24);
+            menuXemChiTiet.Text = "Xem chi tiết";
+            // 
             // dgvStudents
             // 
             dgvStudents.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvStudents.ContextMenuStrip = contextMenuDGV;
             dgvStudents.Location = new Point(408, 0);
             dgvStudents.Name = "dgvStudents";
             dgvStudents.RowHeadersWidth = 51;
@@ -194,12 +215,41 @@
             btnExportCsv.UseVisualStyleBackColor = true;
             btnExportCsv.Click += btnExportCsv_Click;
             // 
-            // Form1
+            // btnLoadDataAsync
+            // 
+            btnLoadDataAsync.Location = new Point(200, 312);
+            btnLoadDataAsync.Name = "btnLoadDataAsync";
+            btnLoadDataAsync.Size = new Size(102, 29);
+            btnLoadDataAsync.TabIndex = 15;
+            btnLoadDataAsync.Text = "Nạp dữ liệu";
+            btnLoadDataAsync.UseVisualStyleBackColor = true;
+            btnLoadDataAsync.Click += btnLoadDataAsync_Click;
+            // 
+            // prgLoading
+            // 
+            prgLoading.Location = new Point(200, 352);
+            prgLoading.Name = "prgLoading";
+            prgLoading.Size = new Size(200, 13);
+            prgLoading.TabIndex = 16;
+            // 
+            // lblPercent
+            // 
+            lblPercent.AutoSize = true;
+            lblPercent.Location = new Point(312, 320);
+            lblPercent.Name = "lblPercent";
+            lblPercent.Size = new Size(29, 20);
+            lblPercent.TabIndex = 17;
+            lblPercent.Text = "0%";
+            // 
+            // FormStudent
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 255, 192);
             ClientSize = new Size(1053, 450);
+            Controls.Add(lblPercent);
+            Controls.Add(prgLoading);
+            Controls.Add(btnLoadDataAsync);
             Controls.Add(btnExportCsv);
             Controls.Add(btnUpdate);
             Controls.Add(btnDelete);
@@ -215,8 +265,9 @@
             Controls.Add(txtStudentId);
             Controls.Add(label1);
             Controls.Add(dgvStudents);
-            Name = "Form1";
+            Name = "FormStudent";
             Text = "Quản lí";
+            contextMenuDGV.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvStudents).EndInit();
             ((System.ComponentModel.ISupportInitialize)picAvatar).EndInit();
             ResumeLayout(false);
@@ -245,5 +296,8 @@
         private ToolStripMenuItem menuXoaDong;
         private ToolStripMenuItem menuLamMoi;
         private ToolStripMenuItem menuXemChiTiet;
+        private Button btnLoadDataAsync;
+        private ProgressBar prgLoading;
+        private Label lblPercent;
     }
 }

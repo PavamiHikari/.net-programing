@@ -243,6 +243,83 @@ namespace _2
             }
             return field;
         }
+
+        private async void btnLoadDataAsync_Click(object sender, EventArgs e)
+        {
+            btnLoadDataAsync.Enabled = false;
+            prgLoading.Value = 0;
+            lblPercent.Text = "0%";
+
+            var parentForm = this.MdiParent as Form1;
+
+            var progress = new Progress<int>(percent =>
+            {
+                prgLoading.Value = percent;
+                lblPercent.Text = $"{percent}%";
+
+                if (parentForm != null)
+                {
+                    parentForm.UpdateStatus($"Đang nạp dữ liệu: {percent}%");
+                }
+            });
+
+            try
+            {
+                List<Student> result = await LoadStudentDataAsync(progress);
+
+                studentList.Clear();
+                foreach (var sv in result)
+                {
+                    studentList.Add(sv);
+                }
+
+                if (parentForm != null)
+                {
+                    parentForm.UpdateStatus($"Nạp dữ liệu hoàn tất lúc {DateTime.Now:HH:mm:ss}");
+                }
+                MessageBox.Show("Nạp dữ liệu thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                if (parentForm != null)
+                {
+                    parentForm.UpdateStatus("Quá trình nạp dữ liệu gặp lỗi.");
+                }
+                MessageBox.Show($"Lỗi khi tải dữ liệu: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                btnLoadDataAsync.Enabled = true;
+            }
+        }
+
+        private async Task<List<Student>> LoadStudentDataAsync(IProgress<int> progress)
+        {
+            return await Task.Run(() =>
+            {
+                var list = new List<Student>();
+                int totalRecords = 50;
+
+                for (int i = 1; i <= totalRecords; i++)
+                {
+                    Thread.Sleep(50);
+
+                    list.Add(new Student
+                    {
+                        StudentId = $"SV{i:D3}",
+                        FullName = $"Sinh viên {i}",
+                        Age = 18 + (i % 5),
+                        Gender = (i % 2 == 0) ? "Nam" : "Nữ",
+                        AvatarPath = string.Empty
+                    });
+
+                    int percent = (int)((double)i / totalRecords * 100);
+                    progress?.Report(percent);
+                }
+
+                return list;
+            });
+        }
     }
 
     public class Student : INotifyPropertyChanged
@@ -289,5 +366,7 @@ namespace _2
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
+        
     }
 }
