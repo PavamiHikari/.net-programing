@@ -3,7 +3,7 @@
 - **Mã số sinh viên:** 24810310262
 - **Lớp:** D19CNPM3
 - **Tên môn học:** Lập trình C# / Windows Forms
-- **Tên bài tập:** THIẾT KẾ KHUNG ỨNG DỤNG MDI & QUẢN LÝ ĐA CỬA SỔ
+- **Tên bài tập:** LẬP TRÌNH BẤT ĐỒNG BỘ (ASYNC/AWAIT) & TIẾN TRÌNH PROGRESSBAR
 ## KẾT QUẢ THỰC HÀNH
 ![alt text](image.png)
 ![alt text](image-1.png)
