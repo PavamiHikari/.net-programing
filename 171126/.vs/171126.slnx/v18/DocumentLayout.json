@@ -1,0 +1,746 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Learn\\.NET programing\\.net-programing\\171126\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\GUI\\MainForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\GUI\\MainForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\HRMManagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\HRMManagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\GUI\\MainForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\GUI\\MainForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DTO\\PhongBanDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\DTO\\PhongBanDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DTO\\NhanVienDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\DTO\\NhanVienDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DTO\\BangLuongDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\DTO\\BangLuongDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DTO\\BangChamCongDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\DTO\\BangChamCongDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DAL\\PhongBanDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\DAL\\PhongBanDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DAL\\NhanVienDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\DAL\\NhanVienDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DAL\\LuongDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\DAL\\LuongDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DAL\\DatabaseHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\DAL\\DatabaseHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DAL\\ChamCongDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\DAL\\ChamCongDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\BUS\\PhongBanBUS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\BUS\\PhongBanBUS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\BUS\\NhanVienBUS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\BUS\\NhanVienBUS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\BUS\\LuongBUS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\BUS\\LuongBUS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\BUS\\ChamCongBUS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\BUS\\ChamCongBUS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\HRMManagement\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\Database\\ScriptDB.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2\\Database\\ScriptDB.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\SalesManagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\SalesManagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\GUI\\MainForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\GUI\\MainForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\GUI\\MainForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\GUI\\MainForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\TopSanPhamDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\DTO\\TopSanPhamDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\SanPhamDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\DTO\\SanPhamDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\NhanVienDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\DTO\\NhanVienDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\KhachHangDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\DTO\\KhachHangDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\HoaDonDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\DTO\\HoaDonDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\ChiTietHoaDonDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\DTO\\ChiTietHoaDonDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DAL\\SanPhamDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\DAL\\SanPhamDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DAL\\NhanVienDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\DAL\\NhanVienDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DAL\\KhachHangDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\DAL\\KhachHangDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DAL\\HoaDonDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\DAL\\HoaDonDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DAL\\DatabaseHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\DAL\\DatabaseHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\BUS\\SanPhamBUS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\BUS\\SanPhamBUS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\BUS\\NhanVienBUS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\BUS\\NhanVienBUS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\BUS\\KhachHangBUS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\BUS\\KhachHangBUS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\BUS\\HoaDonBUS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\BUS\\HoaDonBUS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\SalesManagement\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\Database\\ScriptDB.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1\\Database\\ScriptDB.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "README.md",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\README.md",
+              "RelativeDocumentMoniker": "2\\README.md",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\README.md",
+              "RelativeToolTip": "2\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-17T07:40:00.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\Program.cs",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\Program.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\Program.cs",
+              "RelativeToolTip": "2\\HRMManagement\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:59.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HRMManagement.csproj",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\HRMManagement.csproj",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\HRMManagement.csproj",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\HRMManagement.csproj",
+              "RelativeToolTip": "2\\HRMManagement\\HRMManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-17T07:39:59.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\GUI\\MainForm.cs",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\GUI\\MainForm.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\GUI\\MainForm.cs",
+              "RelativeToolTip": "2\\HRMManagement\\GUI\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:59.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\GUI\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\GUI\\MainForm.Designer.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\GUI\\MainForm.Designer.cs",
+              "RelativeToolTip": "2\\HRMManagement\\GUI\\MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:59.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{8b6f3c64-44b4-4b53-9a3d-6b5832a8183c}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PhongBanDTO.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DTO\\PhongBanDTO.cs",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\DTO\\PhongBanDTO.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DTO\\PhongBanDTO.cs",
+              "RelativeToolTip": "2\\HRMManagement\\DTO\\PhongBanDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:59.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NhanVienDTO.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DTO\\NhanVienDTO.cs",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\DTO\\NhanVienDTO.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DTO\\NhanVienDTO.cs",
+              "RelativeToolTip": "2\\HRMManagement\\DTO\\NhanVienDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:59.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BangLuongDTO.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DTO\\BangLuongDTO.cs",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\DTO\\BangLuongDTO.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DTO\\BangLuongDTO.cs",
+              "RelativeToolTip": "2\\HRMManagement\\DTO\\BangLuongDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:59.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BangChamCongDTO.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DTO\\BangChamCongDTO.cs",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\DTO\\BangChamCongDTO.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DTO\\BangChamCongDTO.cs",
+              "RelativeToolTip": "2\\HRMManagement\\DTO\\BangChamCongDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:59.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PhongBanDAL.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DAL\\PhongBanDAL.cs",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\DAL\\PhongBanDAL.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DAL\\PhongBanDAL.cs",
+              "RelativeToolTip": "2\\HRMManagement\\DAL\\PhongBanDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:59.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NhanVienDAL.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DAL\\NhanVienDAL.cs",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\DAL\\NhanVienDAL.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DAL\\NhanVienDAL.cs",
+              "RelativeToolTip": "2\\HRMManagement\\DAL\\NhanVienDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:59.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LuongDAL.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DAL\\LuongDAL.cs",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\DAL\\LuongDAL.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DAL\\LuongDAL.cs",
+              "RelativeToolTip": "2\\HRMManagement\\DAL\\LuongDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:59.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DAL\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\DAL\\DatabaseHelper.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DAL\\DatabaseHelper.cs",
+              "RelativeToolTip": "2\\HRMManagement\\DAL\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:59.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChamCongDAL.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DAL\\ChamCongDAL.cs",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\DAL\\ChamCongDAL.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\DAL\\ChamCongDAL.cs",
+              "RelativeToolTip": "2\\HRMManagement\\DAL\\ChamCongDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:58.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PhongBanBUS.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\BUS\\PhongBanBUS.cs",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\BUS\\PhongBanBUS.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\BUS\\PhongBanBUS.cs",
+              "RelativeToolTip": "2\\HRMManagement\\BUS\\PhongBanBUS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:58.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NhanVienBUS.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\BUS\\NhanVienBUS.cs",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\BUS\\NhanVienBUS.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\BUS\\NhanVienBUS.cs",
+              "RelativeToolTip": "2\\HRMManagement\\BUS\\NhanVienBUS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:58.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LuongBUS.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\BUS\\LuongBUS.cs",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\BUS\\LuongBUS.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\BUS\\LuongBUS.cs",
+              "RelativeToolTip": "2\\HRMManagement\\BUS\\LuongBUS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:58.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChamCongBUS.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\BUS\\ChamCongBUS.cs",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\BUS\\ChamCongBUS.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\BUS\\ChamCongBUS.cs",
+              "RelativeToolTip": "2\\HRMManagement\\BUS\\ChamCongBUS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:58.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\App.config",
+              "RelativeDocumentMoniker": "2\\HRMManagement\\App.config",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\HRMManagement\\App.config",
+              "RelativeToolTip": "2\\HRMManagement\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-11-17T07:39:58.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ScriptDB.sql",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\Database\\ScriptDB.sql",
+              "RelativeDocumentMoniker": "2\\Database\\ScriptDB.sql",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\2\\Database\\ScriptDB.sql",
+              "RelativeToolTip": "2\\Database\\ScriptDB.sql",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-11-17T07:39:58.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SalesManagement.csproj",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\SalesManagement.csproj",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\SalesManagement.csproj",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\SalesManagement.csproj",
+              "RelativeToolTip": "1\\SalesManagement\\SalesManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-17T07:39:58.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\Program.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\Program.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\Program.cs",
+              "RelativeToolTip": "1\\SalesManagement\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:57.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\GUI\\MainForm.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\GUI\\MainForm.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\GUI\\MainForm.cs",
+              "RelativeToolTip": "1\\SalesManagement\\GUI\\MainForm.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:56.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\GUI\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\GUI\\MainForm.Designer.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\GUI\\MainForm.Designer.cs",
+              "RelativeToolTip": "1\\SalesManagement\\GUI\\MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:56.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TopSanPhamDTO.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\TopSanPhamDTO.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\DTO\\TopSanPhamDTO.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\TopSanPhamDTO.cs",
+              "RelativeToolTip": "1\\SalesManagement\\DTO\\TopSanPhamDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:56.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SanPhamDTO.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\SanPhamDTO.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\DTO\\SanPhamDTO.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\SanPhamDTO.cs",
+              "RelativeToolTip": "1\\SalesManagement\\DTO\\SanPhamDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:56.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NhanVienDTO.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\NhanVienDTO.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\DTO\\NhanVienDTO.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\NhanVienDTO.cs",
+              "RelativeToolTip": "1\\SalesManagement\\DTO\\NhanVienDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:56.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "KhachHangDTO.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\KhachHangDTO.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\DTO\\KhachHangDTO.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\KhachHangDTO.cs",
+              "RelativeToolTip": "1\\SalesManagement\\DTO\\KhachHangDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:56.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HoaDonDTO.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\HoaDonDTO.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\DTO\\HoaDonDTO.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\HoaDonDTO.cs",
+              "RelativeToolTip": "1\\SalesManagement\\DTO\\HoaDonDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:56.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ChiTietHoaDonDTO.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\ChiTietHoaDonDTO.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\DTO\\ChiTietHoaDonDTO.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DTO\\ChiTietHoaDonDTO.cs",
+              "RelativeToolTip": "1\\SalesManagement\\DTO\\ChiTietHoaDonDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:56.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SanPhamDAL.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DAL\\SanPhamDAL.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\DAL\\SanPhamDAL.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DAL\\SanPhamDAL.cs",
+              "RelativeToolTip": "1\\SalesManagement\\DAL\\SanPhamDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:56.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "NhanVienDAL.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DAL\\NhanVienDAL.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\DAL\\NhanVienDAL.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DAL\\NhanVienDAL.cs",
+              "RelativeToolTip": "1\\SalesManagement\\DAL\\NhanVienDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:56.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "KhachHangDAL.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DAL\\KhachHangDAL.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\DAL\\KhachHangDAL.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DAL\\KhachHangDAL.cs",
+              "RelativeToolTip": "1\\SalesManagement\\DAL\\KhachHangDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:56.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HoaDonDAL.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DAL\\HoaDonDAL.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\DAL\\HoaDonDAL.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DAL\\HoaDonDAL.cs",
+              "RelativeToolTip": "1\\SalesManagement\\DAL\\HoaDonDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:56.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DAL\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\DAL\\DatabaseHelper.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\DAL\\DatabaseHelper.cs",
+              "RelativeToolTip": "1\\SalesManagement\\DAL\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:56.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SanPhamBUS.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\BUS\\SanPhamBUS.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\BUS\\SanPhamBUS.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\BUS\\SanPhamBUS.cs",
+              "RelativeToolTip": "1\\SalesManagement\\BUS\\SanPhamBUS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:56.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "NhanVienBUS.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\BUS\\NhanVienBUS.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\BUS\\NhanVienBUS.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\BUS\\NhanVienBUS.cs",
+              "RelativeToolTip": "1\\SalesManagement\\BUS\\NhanVienBUS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:55.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "KhachHangBUS.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\BUS\\KhachHangBUS.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\BUS\\KhachHangBUS.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\BUS\\KhachHangBUS.cs",
+              "RelativeToolTip": "1\\SalesManagement\\BUS\\KhachHangBUS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:55.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HoaDonBUS.cs",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\BUS\\HoaDonBUS.cs",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\BUS\\HoaDonBUS.cs",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\BUS\\HoaDonBUS.cs",
+              "RelativeToolTip": "1\\SalesManagement\\BUS\\HoaDonBUS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T07:39:55.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\App.config",
+              "RelativeDocumentMoniker": "1\\SalesManagement\\App.config",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\SalesManagement\\App.config",
+              "RelativeToolTip": "1\\SalesManagement\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-11-17T07:39:55.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "README.md",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\README.md",
+              "RelativeDocumentMoniker": "1\\README.md",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\README.md",
+              "RelativeToolTip": "1\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-17T07:39:54.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ScriptDB.sql",
+              "DocumentMoniker": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\Database\\ScriptDB.sql",
+              "RelativeDocumentMoniker": "1\\Database\\ScriptDB.sql",
+              "ToolTip": "E:\\Learn\\.NET programing\\.net-programing\\171126\\1\\Database\\ScriptDB.sql",
+              "RelativeToolTip": "1\\Database\\ScriptDB.sql",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-11-17T07:39:54.78Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

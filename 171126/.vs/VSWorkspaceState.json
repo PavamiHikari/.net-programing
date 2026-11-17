@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\1",
+    "\\1\\SalesManagement",
+    "\\1\\SalesManagement\\BUS",
+    "\\1\\SalesManagement\\DAL",
+    "\\1\\SalesManagement\\DTO",
+    "\\1\\SalesManagement\\GUI",
+    "\\2",
+    "\\2\\HRMManagement"
+  ],
+  "SelectedNode": "\\2\\HRMManagement\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
