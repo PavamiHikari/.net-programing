@@ -1,0 +1,12 @@
+using ProjectTaskManagement.DAL;
+using ProjectTaskManagement.DTO;
+
+namespace ProjectTaskManagement.BUS;
+
+public class ThanhVienBUS
+{
+    private readonly ThanhVienDAL _dal = new();
+
+    public List<ThanhVienDTO> GetAll() => _dal.GetAll();
+}
+

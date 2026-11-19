@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\2",
+    "\\2\\GarageManagement",
+    "\\2\\GarageManagement\\GUI",
+    "\\3",
+    "\\3\\KaraokeManagement",
+    "\\3\\KaraokeManagement\\BUS",
+    "\\3\\KaraokeManagement\\DAL",
+    "\\3\\KaraokeManagement\\DTO",
+    "\\3\\KaraokeManagement\\GUI"
+  ],
+  "SelectedNode": "\\3\\KaraokeManagement\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
