@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BankAtmMdiSystem/1.0.0": {
+        "runtime": {
+          "BankAtmMdiSystem.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankAtmMdiSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
